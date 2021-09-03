@@ -1,0 +1,66 @@
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0rem;
+  }
+
+
+.nav-link{
+  color: #2E3192;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.text-logo{
+  color: #2E3192;
+}
+
+.dropdown-menu{
+  transition:  0.5s;
+}
+
+
+
+.dropdown-item {
+
+  transition: 0.5s;
+}
+
+.animate{
+  animation-duration: 0.4s;
+  -webkit-animation-duration: 0.4s;
+  animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes slideDown{
+
+  0%{
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+  100%{
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
+}
+
+@-webkit-keyframes slideDown{
+
+  0%{
+    transform: scaleY(0);
+    transform-origin: center top 0;
+  }
+  100%{
+    transform: scaleY(1);
+    transform-origin: center top 0;
+  }
+}
+
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+}
+
+.nav-item :hover{
+  border-bottom: 5 solid #2E3192;
+} 

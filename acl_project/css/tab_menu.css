@@ -1,0 +1,34 @@
+div#v-pills-tabContent {
+    width: 100%;
+}
+
+div#v-pills-tab {
+    width: 15rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #2E3192;
+}
+
+.naratip{
+    background-color: red;
+}
+
+
+@media screen and (max-width: 768px) {
+    .d-flex.align-items-start{
+        display: flex;
+        flex-direction: column;
+    }
+    div#v-pills-tab {
+        margin-bottom: 2rem;
+        width: 100%;
+        height: auto;
+    }
+    
+    .naratip{
+        background-color: yellow;
+    }
+    
+}
