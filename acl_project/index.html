@@ -15,10 +15,11 @@
       <link rel="stylesheet" href="css/footer.css">
       <link rel="stylesheet" href="css/content-network.css">
       <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
+
+      <link rel="stylesheet" href="css/slide_logo.css">
       <!-- <link rel="stylesheet" href="sass/custom.scss"> -->
 
   </head>
-
   <body >
   <!-- start navbar -->
     <nav class="navbar navbar-expand-lg navbar-light ">
@@ -36,7 +37,7 @@
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <div class=" ms-auto" >
-                <ul class="navbar-nav mb-2 mb-lg-0">
+                <ul class="navbar-nav mb-2 mb-lg-0" style="padding-right: 8px;">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -154,30 +155,42 @@
       </div>
       <!-- end slider -->
 
-    <!-- start button tab -->
+    <!-- start button menu -->
     <div class="container-xl text-center" style="margin-top: 4rem; " >
       <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Primary
+        <img src="/image/button-menu/swis.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
+        SWIS LOGIN
+      </button>
+      <button type="button" class="btn btn-outline-primary"style="margin:5px">
+        <img src="/image/button-menu/student_swis.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
+        Student Dashboard
       </button>
       <button type="button" class="btn btn-outline-primary"style="margin:5px">
         <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Primary
+        Today's Event
       </button>
       <button type="button" class="btn btn-outline-primary"style="margin:5px">
         <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Primary
+        Academic ฝ่ายวิชาการ
       </button>
       <button type="button" class="btn btn-outline-primary"style="margin:5px">
         <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Primary
+        Facebook
       </button>
       <button type="button" class="btn btn-outline-primary"style="margin:5px">
         <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Primary
+        YouTube
+      </button>
+      <button type="button" class="btn btn-outline-primary"style="margin:5px">
+        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
+        แผนที่
+      </button>
+      <button type="button" class="btn btn-outline-primary"style="margin:5px">
+        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
+        Search
       </button>
     </div>
-    <!-- end button tab -->
+    <!-- end button menu -->
 
       <!-- start tab-menu SCHOOL NEWS AND EVENT  -->
       <div class="container-xl" >
@@ -186,7 +199,7 @@
         <div class="d-flex align-items-start">
           <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
-              <img src="image/newspaper1.png" class="rounded mx-auto d-block" width="6d0" height="60" style="margin: 12px 0 12px 0;">
+              <img src="image/newspaper1.png" class="rounded mx-auto d-block" width="60" height="60" style="margin: 12px 0 12px 0;">
               <p>SCHOOL NEWS</p>
             </button>
             <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
@@ -215,8 +228,8 @@
 
       <!-- start youtube -->
       <div class="bg-youtube">
-        <div class="container-xl" >
-          <div class="row align-items-start">
+        <div class="container" >
+          <div class="row " id="youtube">
             <div class="col">
               <p class="text-y">โรงเรียนอัสสัมชัญลําปาง ปัจจุบันเปิดทําการสอนตั้งแต่เวลา 08.00-15.40 น. จัดการเรียน การสอนใน 3 หลักสูตร ประกอบด้วย</p>
               <p class="text-y">1.หลักสูตรปฐมวัย พ.ศ. 2546 เปิดสอนชั้นเนอสเซอรี่ ถึง อนุบาลศึกษาปีที่ 3</p>
@@ -225,7 +238,8 @@
             </div>
             <div class="col">
               <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vba7xh9mCi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vba7xh9mCi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+              </div>
             </div>
           </div>
         </div>
@@ -270,8 +284,67 @@
       </div>
         <!-- end tab video photo -->
 
+        <!-- start Logo มูลนิธื -->
+        <h2 class="text-center" style="margin-top: 4rem; padding: 10px; color: white; background-color: #2E3192;">โรงเรียนในเครือมูลนิธิคณะเซนต์คาเบรียลแห่งประเทศไทย</h2>
+        <div class="container">
+          <div class="logo-list">
+            <div class="row-logo">
+               <div class="column-logo">
+                  <a href="https://www.thaibrothers.net/"><img src="image/logo_Assumption/01.stGabriel.png" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.assumption.ac.th/"><img src="image/logo_Assumption/02.Assumption_College_(Thailand)_Logo.png" class="rounded mx-auto d-block"></a>
+                </div>
+                <div class="column-logo">
+                  <a href="http://www.sg.ac.th/site/"><img src="image/logo_Assumption/03.SGlogo.jpg" class="rounded mx-auto d-block"></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.mcp.ac.th/"><img src="image/logo_Assumption/04.mcp.jpg" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.montfort.ac.th/"><img src="image/logo_Assumption/05.Logo-Montfort-2016-300x300.jpg" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.acc.ac.th/"><img src="image/logo_Assumption/06.acc.png" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="http://www.acs.ac.th/acs2020/index.html"><img src="image/logo_Assumption/07.Logo_ACS.gif" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.sl.ac.th/"><img src="image/logo_Assumption/08.sl.png" class="rounded mx-auto d-block" ></a>
+                </div>     
+              </div>
+              <div class="row-logo">
+                <div class="column-logo">
+                 <a href="http://www.act.ac.th/"><img src="image/logo_Assumption/010.Logo-act.jpg" class="rounded mx-auto d-block"></a>
+                </div>
+                <div class="column-logo">
+                  <a href="http://www.acr.ac.th/"><img src="image/logo_Assumption/11.acr.png" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.acu.ac.th/acu/index.php"><img src="image/logo_Assumption/12.acu.jpg" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="http://www.acn.ac.th/"><img src="image/logo_Assumption/13.acn.jpg" class="rounded mx-auto d-block"></a>
+                </div>
+                <div class="column-logo">
+                  <a href="http://www.acsp.ac.th/"><img src="image/logo_Assumption/14.acsp.png" class="rounded mx-auto d-block"></a>
+                </div>
+                <div class="column-logo">
+                  <a href="http://www.atsn.ac.th/"><img src="image/logo_Assumption/15.nakonpanom.png" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.acp.ac.th/"><img src="image/logo_Assumption/16ac.jpg" class="rounded mx-auto d-block" ></a>
+                </div>
+                <div class="column-logo">
+                  <a href="https://www.acep.ac.th/"><img src="image/logo_Assumption/17.campus.jpg" class="rounded mx-auto d-block" ></a>
+                </div>   
+              </div>
+          </div> 
+        </div>
+
       <!-- start content network --> 
-      <h2 class="text-center" style="margin-top: 4rem; color: white; background-color: #2E3192;">ACL NETWORK</h2>
+      <h2 class="text-center" style="margin-top: 0.5rem; color: white; background-color: #2E3192;">ACL NETWORK</h2>
       <div class="container">
         <div class="d-flex align-content-center flex-wrap" style="margin-top: 1rem;"  >
           <a class="col-sm"  id="content-network" href="http://www.thaibrothers.net/">
@@ -289,7 +362,7 @@
         </div>
       </div>
       <!-- end content network -->
-
+    
         <!-- start Footer -->
       <footer class="page-footer font-small stylish-color-dark pt-4" id="footer" style="margin-top: 3.5rem;">
         <!-- Footer Links -->
@@ -466,6 +539,14 @@
       <!-- Footer -->
 
     <script src="bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="/js/slide.js"></script> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+
 
   </body>
 

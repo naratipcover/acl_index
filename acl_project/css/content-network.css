@@ -1,6 +1,6 @@
 a#content-network {
     text-decoration: none;
-    transition: width 2s;
+    transition: all 0.3s ease-in-out;
 }
 
 

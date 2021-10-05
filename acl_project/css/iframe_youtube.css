@@ -20,7 +20,7 @@
     height: auto;
     background-color: #2E3192;
     padding: 2rem 0 2rem 0; 
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 
 .text-y{
@@ -29,10 +29,20 @@
 }
 
 @media screen and (max-width: 768px) {
-    .row.align-items-start {
+    
+    .bg-youtube{
+        width: 100%;
+        height: auto;
+        background-color: #2E3192;
+        padding: 2rem 0 2rem 0; 
+        margin-top: 2.5rem;
+    }
+
+    div#youtube {
         display: flex;
         flex-direction: column;
     }
+
     .iframe-container{
        margin-top: 2rem;
     }
