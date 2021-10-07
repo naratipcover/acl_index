@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Assumption College Lampang</title>
       <link rel="icon" type="image/png" sizes="25×25" href="image/acl_logo.png">
+      <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
       <!-- <link rel="stylesheet" href="css/buttom.css"> -->
       <link rel="stylesheet" href="css/tab_menu.css">
       <link rel="stylesheet" href="css/nav.css">
@@ -14,9 +15,8 @@
       <link rel="stylesheet" href="css/iframe_youtube.css">
       <link rel="stylesheet" href="css/footer.css">
       <link rel="stylesheet" href="css/content-network.css">
-      <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
-
-      <link rel="stylesheet" href="css/slide_logo.css">
+      <link rel="stylesheet" href="css/ac_logo.css">
+      <link rel="stylesheet" href="css/button_menu.css">
       <!-- <link rel="stylesheet" href="sass/custom.scss"> -->
 
   </head>
@@ -24,7 +24,7 @@
   <!-- start navbar -->
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/index.html">
                 <img src="image/acl_logo.png" width="65" height="65" class="d-inline-block align-top" alt="#">
             </a>
 
@@ -39,7 +39,7 @@
               <div class=" ms-auto" >
                 <ul class="navbar-nav mb-2 mb-lg-0" style="padding-right: 8px;">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
@@ -156,39 +156,55 @@
       <!-- end slider -->
 
     <!-- start button menu -->
-    <div class="container-xl text-center" style="margin-top: 4rem; " >
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="/image/button-menu/swis.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        SWIS LOGIN
-      </button>
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="/image/button-menu/student_swis.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Student Dashboard
-      </button>
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Today's Event
-      </button>
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Academic ฝ่ายวิชาการ
-      </button>
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Facebook
-      </button>
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        YouTube
-      </button>
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        แผนที่
-      </button>
-      <button type="button" class="btn btn-outline-primary"style="margin:5px">
-        <img src="image/camera.png" class="rounded mx-auto d-block" width="75" height="75" style="margin: 12px 0 12px 0;">
-        Search
-      </button>
+    <div class="container-xl text-center" style="margin-top: 4rem;" >
+      <a href="https://swis.acl.ac.th/" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="/image/button-menu/swis.png" class="rounded mx-auto d-block img-menu">
+          SWIS LOGIN
+        </button>
+      </a>
+      <a href="https://swis.acl.ac.th/student/login.php" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="/image/button-menu/student_swis.png" class="rounded mx-auto d-block img-menu">
+          Student Dashboard
+        </button>
+      </a> 
+      <a href="https://swis.acl.ac.th/student/login.php" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="image/button-menu/event.png" class="rounded mx-auto d-block img-menu">
+          Today's Event
+        </button>
+      </a>
+      <a href="https://sites.google.com/acl.ac.th/aclcur/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%9D%E0%B8%B2%E0%B8%A2" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="image/button-menu/folder.png" class="rounded mx-auto d-block img-menu">
+          Academic ฝ่ายวิชาการ
+        </button>
+      </a>
+      <a href="https://www.facebook.com/ACL2501/" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="image/button-menu/facebook (2).png" class="rounded mx-auto d-block img-menu">
+          Facebook
+        </button>
+      </a>
+      <a href="https://www.youtube.com/channel/UCKcsDlpyh6mKQGLmVdqm30Q" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="image/button-menu/youtube (2).png" class="rounded mx-auto d-block img-menu">
+          YouTube
+        </button>
+      </a>
+      <a href="https://www.acl.ac.th/about-map.html" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="image/button-menu/map.png" class="rounded mx-auto d-block img-menu">
+          Map
+        </button>
+      </a>
+      <a href="/sreach_swis.html" target="_blank" class="button-menu">
+        <button type="button" class="btn btn-outline-primary button-menu">
+          <img src="image/button-menu/search.png" class="rounded mx-auto d-block img-menu">
+          Search
+        </button>
+      </a>
     </div>
     <!-- end button menu -->
 
@@ -347,15 +363,15 @@
       <h2 class="text-center" style="margin-top: 0.5rem; color: white; background-color: #2E3192;">ACL NETWORK</h2>
       <div class="container">
         <div class="d-flex align-content-center flex-wrap" style="margin-top: 1rem;"  >
-          <a class="col-sm"  id="content-network" href="http://www.thaibrothers.net/">
+          <a class="col-sm"  id="content-network" href="http://www.thaibrothers.net/" target="_blank">
             <img src="image/fsg.png" class="rounded mx-auto d-block" width="100%"  style="padding: 2rem;"  >
             <h4 class="text-center"  style="color: #737373;">FSG </h4>
           </a>
-          <a class="col-sm"  id="content-network" href="https://www.facebook.com/%E0%B8%AA%E0%B8%A1%E0%B8%B2%E0%B8%84%E0%B8%A1%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B8%81%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B9%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%B1%E0%B8%AA%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%8D%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87-%E0%B8%9B%E0%B8%B52561-2563-275577793124846/?ref=page_internal">
+          <a class="col-sm"  id="content-network" href="https://www.facebook.com/%E0%B8%AA%E0%B8%A1%E0%B8%B2%E0%B8%84%E0%B8%A1%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9B%E0%B8%81%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B9%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%B1%E0%B8%AA%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%8D%E0%B8%A5%E0%B8%B3%E0%B8%9B%E0%B8%B2%E0%B8%87-%E0%B8%9B%E0%B8%B52561-2563-275577793124846/?ref=page_internal" target="_blank">
             <img src="image/acl-ptc.png" class="rounded mx-auto d-block" width="100%" style="padding: 2rem;" >
             <h4 class="text-center" style="color: #737373;">ACL PTA </h4>
           </a>
-          <a class="col-sm"  id="content-network" href="http://www.aclalumni.com/">
+          <a class="col-sm"  id="content-network" href="http://www.aclalumni.com/" target="_blank">
             <img src="image/acl-alumni.png" class="rounded mx-auto d-block" width="100%" style="padding: 2rem;">
             <h4 class="text-center" style="color: #737373;">ACL Alumni</h4>
           </a>

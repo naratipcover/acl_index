@@ -9,7 +9,7 @@ div#v-pills-tab {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #2E3192;
+    /* background-color: #2E3192; */
 }
 
 .naratip{
