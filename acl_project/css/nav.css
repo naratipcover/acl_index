@@ -13,6 +13,7 @@
 
 .text-logo{
   color: #2E3192;
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -20,14 +21,22 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 600px) {
+ .text-logo{
+   color: #2E3192;
+   font-size: 12px;
+
+ }
+}
  
 
 .dropdown-menu{
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
 
 .dropdown-item {
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.3s ease-in-out; */
 }
 
 .animate{
