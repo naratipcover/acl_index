@@ -23,3 +23,13 @@ a#text-footer {
 a#text-footer:hover {
     color: rgba(255, 255, 255, 0.61);
 }
+
+@media screen and (max-width: 768px) {
+    .footer-tab {
+        width: 15rem;
+    }
+    .footer-tab-student{
+        margin-left: 234;
+        width: 18rem;
+    }
+   }
